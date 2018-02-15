@@ -115,13 +115,16 @@ h3 {
     margin-bottom: .5rem;
 }
 h4 {
+    text-align: center;
     font-size: 1rem;
     color: white;
+    margin-bottom:.4rem;
+
 }
 p {
     display: inline-block;
-    text-align: start;
-    margin: 1rem;
+    text-align: center;
+    margin: .75rem;
     color: white;
 
 }
@@ -137,6 +140,11 @@ a:hover{
 .round-edges{
     border: solid 2px #444;
     border-radius: .5rem;
+}
+.dark-box{
+    border: solid 2px #444;
+    border-radius: .5rem;
+    background-color: #444444;
 }
 .bottom-edges{
     border-radius: 0 0 .5rem .5rem;
@@ -237,8 +245,12 @@ a:hover{
     background-color: #777777;
 }
 .content .box:first-of-type{
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     margin-top: .7rem;
+    padding: 0 2rem;
+}
+.bigshell{
+    padding: .5rem 1rem;
 }
 .box{
     background-color: #888888;
@@ -250,22 +262,106 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.blog-size{
-    max-width: 375px;
-    max-height: 667px;
+.headline img{
+    display: block;
+    max-width: 400px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
 }
+.content-wrapper{
+    display: block;
+}
+.content-wrapper:first-child{
+
+}
+
+            /* Erholung Abschnitt */
+.erholung-content-wrapper{
+
+}
+.erholung-wrapper-1{
+    margin-bottom: .5rem;
+}
+.erholung-wrapper-2{
+
+}
+            /* Erholung Ende */
+
+            /* Technik Abschnitt */
+.technik-content-wrapper{
+
+}
+.technik-wrapper-1{
+    margin-bottom: .5rem;
+}
+.technik-wrapper-2{
+
+}
+            /* Technik Ende */
+
+            /* Allgemein Abschnitt */
+.allgemein-content-wrapper{
+
+}
+.allgemein-wrapper-1{
+    margin-bottom: .5rem;
+}
+.allgemein-wrapper-2{
+
+}
+            /* Allgemein Ende */
+
+            /* Home Abschnitt */
+.home-content-wrapper{
+
+}
+.home-wrapper-1{
+    margin-bottom: .5rem;
+}
+.home-wrapper-2{
+
+}
+            /* Home Ende */
+
+            /* Blog Abschnitt */
+.blog-content-wrapper{
+
+}
+.blog-wrapper-1{
+    margin-bottom: .5rem;
+}
+
+.blog-wrapper-2{
+    display: table;
+    text-align: center;
+}
+            /* Blog Ende */
+
 .link-box{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    /*TEST*/
+    flex: -moz-min-content;
+    flex-wrap: wrap;
 }
 .link-box img{
     display: block;
-    max-width: 100%;
-    max-height: 100%;
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    min-width: 230px;
+    max-width: 400px;
+    max-height: 600px;
+    box-sizing: border-box;
+}
+.bigshell .column{
+    padding: 1rem !important;
 }
 .column .columns .box{
     background-color: #666666;
@@ -273,7 +369,6 @@ img{
 }
 .text-table{
     display: table;
-    max-width: 1000px;
 }
 footer {
     position: relative;
@@ -282,7 +377,7 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 1rem;
-    margin: .7rem .5rem .3rem .5rem;
+    margin: 1rem .5rem .3rem .5rem;
 }
 #footer-list{
     width: 100%;

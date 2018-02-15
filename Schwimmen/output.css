@@ -8,7 +8,7 @@
   flex-basis: 0;
   flex-grow: 1;
   flex-shrink: 1;
-  padding: 2rem; }
+  padding: 2rem 1rem; }
   .columns.is-mobile > .column.is-narrow {
     flex: none; }
   .columns.is-mobile > .column.is-full {
