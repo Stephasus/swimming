@@ -1,0 +1,443 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serifsans-serif, monospace;
+    background-color: #777777;
+}
+.allgemein .background-img{
+    background-image: url("bildmaterial/bg/bg5.png");
+    display: block;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 0 0 1rem 1rem;
+}
+.technik .background-img{
+    background-image: url("bildmaterial/Technik/backstroke.png");
+    display: block;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 0 0 1rem 1rem;
+}
+.erholung .background-img{
+    background-image: url("bildmaterial/Erholung/erholung.png");
+    display: block;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 0 0 1rem 1rem;
+}
+.blog .background-img{
+    background-image: url("bildmaterial/Blog/calvyn.png");
+    display: block;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 0 0 1rem 1rem;
+}
+.impressum .background-img{
+    background-image: url("bildmaterial/Impressum/impressum.png");
+    display: block;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 10%;
+    border-radius: 0 0 1rem 1rem;
+}
+.kontakt .background-img{
+    background-image: url("bildmaterial/Kontakt/kontakt.png");
+    display: block;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 70%;
+    border-radius: 0 0 1rem 1rem;
+}
+.background-img h1{
+    z-index: 1000;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125px;
+    padding: 0;
+    line-height: 125px;
+}
+@media screen and (max-width: 1140px) {
+    .background-img h1 { font-size: 100px }
+}
+@media screen and (max-width: 600px) {
+    .background-img h1 { font-size: 50px }
+}
+h1{
+
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: .5rem;
+}
+h4 {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    margin-bottom:.4rem;
+
+}
+p {
+    display: inline-block;
+    text-align: center;
+    margin: .75rem;
+    color: white;
+
+}
+a{
+    color: white;
+    z-index: 1000;
+    text-decoration: none;
+}
+a:hover{
+    opacity: .5;
+    z-index: 1001;
+}
+.round-edges{
+    border: solid 2px #444;
+    border-radius: .5rem;
+}
+.dark-box{
+    border: solid 2px #444;
+    border-radius: .5rem;
+    background-color: #444444;
+}
+.bottom-edges{
+    border-radius: 0 0 .5rem .5rem;
+}
+.bg-slide{
+     width: 100%;
+     height: 100vh;
+     display: block;
+     border-radius: 0 0 .5rem .5rem;
+ }
+.bg-bilder{
+    width: 100%;
+    height: 70vh;
+    display: block;
+    border-radius: 0 0 .5rem .5rem;
+}
+
+.header{
+    width: 100%;
+    background-color: #333;
+    opacity: .8;
+    height: auto;
+    display: inline-block;
+    position: fixed;
+    z-index: 10000;
+}
+.main-menu{
+    height: auto;
+}
+.header .main-left{
+    float: left;
+}
+.header .main-right{
+    float: right;
+}
+
+.main-right ul{
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.header ul{
+    background-color: #333;
+    opacity: .8;
+}
+
+.header li a{
+    padding: .5rem 1rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+.header li{
+    display: inline;
+}
+.header li a:hover {
+    background-color: #555;
+    color: white;
+    opacity: 1;
+}
+
+.header li a.active:hover {
+    background-color: #276cdb;
+    color: white;
+    opacity: 1;
+}
+
+.header li a.active{
+    background-color: #1e53a8;
+    color: white;
+    opacity: 1;
+}
+
+.header li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    opacity: 1;
+}
+.center{
+    text-align: center;
+    margin: auto;
+    width: 100%
+}
+.content{
+    display: block;
+    width: 100%;
+    opacity: 1;
+    margin: auto;
+    padding: .2rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    background-color: #777777;
+}
+.content .box:first-of-type{
+    margin-bottom: 3rem;
+    margin-top: .7rem;
+    padding: 0 2rem;
+}
+.bigshell{
+    padding: .5rem 1rem;
+}
+.box{
+    background-color: #888888;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headline img{
+    display: block;
+    max-width: 400px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+.content-wrapper{
+    display: block;
+}
+.content-wrapper:first-child{
+
+}
+
+            /* Erholung Abschnitt */
+.erholung-content-wrapper{
+
+}
+.erholung-wrapper-1{
+    margin-bottom: .5rem;
+}
+.erholung-wrapper-2{
+
+}
+            /* Erholung Ende */
+
+            /* Technik Abschnitt */
+.technik-content-wrapper{
+
+}
+.technik-wrapper-1{
+    margin-bottom: .5rem;
+}
+.technik-wrapper-2{
+
+}
+            /* Technik Ende */
+
+            /* Allgemein Abschnitt */
+.allgemein-content-wrapper{
+
+}
+.allgemein-wrapper-1{
+    margin-bottom: .5rem;
+}
+.allgemein-wrapper-2{
+
+}
+            /* Allgemein Ende */
+
+            /* Home Abschnitt */
+.home-content-wrapper{
+
+}
+.home-wrapper-1{
+    margin-bottom: .5rem;
+}
+.home-wrapper-2{
+
+}
+            /* Home Ende */
+
+            /* Blog Abschnitt */
+.blog-content-wrapper{
+
+}
+.blog-wrapper-1{
+    margin-bottom: .5rem;
+}
+
+.blog-wrapper-2{
+    display: table;
+    text-align: center;
+}
+            /* Blog Ende */
+
+.link-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /*TEST*/
+    flex: -moz-min-content;
+    flex-wrap: wrap;
+}
+.link-box img{
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    min-width: 230px;
+    max-width: 400px;
+    max-height: 600px;
+    box-sizing: border-box;
+}
+.bigshell .column{
+    padding: 1rem !important;
+}
+.column .columns .box{
+    background-color: #666666;
+    border-radius: 1rem;
+}
+.text-table{
+    display: table;
+}
+footer {
+    position: relative;
+    background: #777777;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 1rem .5rem .3rem .5rem;
+}
+#footer-list{
+    width: 100%;
+}
+footer ul{
+    display: block;
+    float: right;
+    text-align: center;
+    padding: .2rem;
+}
+footer li{
+    float: right;
+    text-align: center;
+    margin: .5rem .5rem .5rem .5rem
+}
+footer li:first-of-type{
+    margin-right: 1rem;
+}
+footer h2, footer h3, footer h4{
+    margin: 0 !important;
+}
+@media (min-width: 601px){
+    .main-menu a{
+        font-size: 100%;
+    }
+}
+@media (max-width: 600px){
+    .main-menu a{
+        font-size: 100%;
+    }
+    .content .box:first-of-type{
+        margin-bottom: 2rem;
+        margin-top: .7rem;
+    }
+    #footer-list{
+        width: inherit;
+    }
+    footer li{
+        margin: .1rem .1rem .1rem .1rem !important;
+    }
+    footer li:first-of-type{
+        margin-bottom: .6rem !important;
+    }
+    footer ul, footer li{
+        float: none;
+    }
+}
+@media (max-width: 520px){
+    .main-menu a{
+        font-size: 85%;
+    }
+
+}
+@media (max-width: 440px){
+    .main-menu a{
+        font-size: 80%;
+    }
+}
+@media (max-width: 400px){
+    .main-menu a{
+        font-size: 65%;
+    }
+}
