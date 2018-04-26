@@ -1,8 +1,10 @@
 <html>
  <head>
-  <title>PHP-Test</title>
+  <title>Erstes Projekt</title>
  </head>
  <body>
- <?php echo '<p>Hallo Welt</p>'; ?>
+ <?php echo '<p>Hallo Welt</p>';
+var_dump($_SERVER);
+ ?>
  </body>
 </html>
