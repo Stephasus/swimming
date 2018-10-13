@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="stylesheet.css">
-    <meta charset="UTF-8">
-    <title>Schwimmen - Impressum</title>
-</head>
-<body>
-<div class="header">
-    <nav>
-        <ul class="main-menu">
-            <li class="main-left"><a href="Home.html">Home</a></li>
-            <li class="main-right"><a href="Blog.html">Blog</a></li>
-            <li class="main-right"><a href="Erholung.html">Erholung</a></li>
-            <li class="main-right"><a href="Technik.html">Technik</a></li>
-            <li class="main-right"><a href="Allgemein.html">Allgemein</a></li>
-        </ul>
-    </nav>
-</div>
-<div class="bg-bilder kontakt">
+<?php
+$pageTitle = "Impressum";
+include_once ("inc/header.php");
+?>
+
+<div class="bg-bilder impressum">
     <div class="background-img">
-        <h1>Kontakt</h1>
+        <h1>Impressum</h1>
     </div>
 </div>
 <div class="content">
@@ -30,9 +13,6 @@
         <div class="columns is-centered">
             <div class="column link-box"> <!--link-box for linked pictures in div | box for borders-->
                 <div class="text-table">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                         At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
@@ -72,17 +52,7 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <footer>
-        <div id="footer-list">
-            <ul  class="round-edges">
-                <li><a href="Impressum.html"><h2>Impressum</h2></a></li>
-                <li><a href="Kontakt.html"><h2>Kontakt</h2></a></li>
-            </ul>
-
-        </div>
-    </footer>
-</div>
-</body>
-</html>
+        <?php
+include_once ("inc/footer.php");
+?>

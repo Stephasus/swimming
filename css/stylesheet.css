@@ -7,7 +7,7 @@ body{
     background-color: #777777;
 }
 .allgemein .background-img{
-    background-image: url("bildmaterial/bg/bg5.png");
+    background-image: url("../bildmaterial/bg/bg5.png");
     display: block;
     width: 100%;
     height: 70%;
@@ -19,7 +19,7 @@ body{
     border-radius: 0 0 1rem 1rem;
 }
 .technik .background-img{
-    background-image: url("bildmaterial/Technik/backstroke.png");
+    background-image: url("../bildmaterial/Technik/backstroke.png");
     display: block;
     width: 100%;
     height: 70%;
@@ -31,7 +31,7 @@ body{
     border-radius: 0 0 1rem 1rem;
 }
 .erholung .background-img{
-    background-image: url("bildmaterial/Erholung/erholung.png");
+    background-image: url("../bildmaterial/Erholung/erholung.png");
     display: block;
     width: 100%;
     height: 70%;
@@ -43,7 +43,7 @@ body{
     border-radius: 0 0 1rem 1rem;
 }
 .blog .background-img{
-    background-image: url("bildmaterial/Blog/calvyn.png");
+    background-image: url("../bildmaterial/Blog/calvyn.png");
     display: block;
     width: 100%;
     height: 70%;
@@ -55,7 +55,7 @@ body{
     border-radius: 0 0 1rem 1rem;
 }
 .impressum .background-img{
-    background-image: url("bildmaterial/Impressum/impressum.png");
+    background-image: url("../bildmaterial/Impressum/impressum.png");
     display: block;
     width: 100%;
     height: 70%;
@@ -67,7 +67,7 @@ body{
     border-radius: 0 0 1rem 1rem;
 }
 .kontakt .background-img{
-    background-image: url("bildmaterial/Kontakt/kontakt.png");
+    background-image: url("../bildmaterial/Kontakt/kontakt.png");
     display: block;
     width: 100%;
     height: 70%;

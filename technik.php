@@ -1,57 +1,23 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="stylesheet.css">
-    <meta charset="UTF-8">
-    <title>Schwimmen - Allgemein</title>
-</head>
-<body>
-<div class="header">
-    <nav>
-        <ul class="main-menu">
-            <li class="main-left"><a href="Home.html">Home</a></li>
-            <li class="main-right "><a href="Blog.html">Blog</a></li>
-            <li class="main-right"><a href="Erholung.html">Erholung</a></li>
-            <li class="main-right"><a href="Technik.html">Technik</a></li>
-            <li class="main-right"><a class="active" href="Allgemein.html">Allgemein</a></li>
-        </ul>
-    </nav>
-</div>
-<div class="bg-bilder allgemein">
+<?php
+$pageTitle = "Technik";
+include_once ("inc/header.php");
+?>
+
+<div class="bg-bilder technik">
     <div class="background-img">
-        <h1>Allgemeines</h1>
+        <h1>Technik</h1>
     </div>
 </div>
-
 <div class="content">
     <div class="box round-edges headline">
         <div class="columns is-centered">
             <div class="column link-box">
                 <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper">
-                        <div class="allgemein-wrapper-1">
-                            <h4>Welcome to my World of Swimming</h4>
-                        </div>
-                        <div class="allgemein-wrapper-2">
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column link-box">
-                <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper">
-                        <div class="allgemein-wrapper-1">
+                    <div class="column technik-content-wrapper content-wrapper">
+                        <div class="technik-wrapper-1">
                             <h2>Welcome to my World of Swimming</h2>
                         </div>
-                        <div class="allgemeing-wrapper-2">
+                        <div class="technik-wrapper-2">
                             <a href="#"><img class="round-edges" src="bildmaterial/Blog/dive-women.png"></a>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
                         </div>
@@ -60,11 +26,27 @@
             </div>
             <div class="column link-box">
                 <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper">
-                        <div class="allgemein-wrapper-1">
+                    <div class="column technik-content-wrapper content-wrapper">
+                        <div class="technik-wrapper-1">
                             <h4>Welcome to my World of Swimming</h4>
                         </div>
-                        <div class="allgemein-wrapper-2">
+                        <div class="technik-wrapper-2">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                                At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column link-box">
+                <div class="text-table columns">
+                    <div class="column technik-content-wrapper content-wrapper">
+                        <div class="technik-wrapper-1">
+                            <h4>Welcome to my World of Swimming</h4>
+                        </div>
+                        <div class="technik-wrapper-2">
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                                 et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -80,11 +62,11 @@
         <div class="columns is-centered">
             <div class="column link-box">
                 <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper round-edges">
-                        <div class="allgemein-wrapper-1">
+                    <div class="column technik-content-wrapper content-wrapper round-edges">
+                        <div class="technik-wrapper-1">
                             <a href="#"><img class="round-edges" src="bildmaterial/Blog/morningroutine_blog.png"></a>
                         </div>
-                        <div class="allgemein-wrapper-2">
+                        <div class="technik-wrapper-2">
                             <h2>Welcome to my World of Swimming</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
                         </div>
@@ -93,15 +75,31 @@
             </div>
             <div class="column link-box">
                 <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper round-edges">
-                        <div class="allgemein-wrapper-1">
+                    <div class="column technik-content-wrapper content-wrapper round-edges">
+                        <div class="technik-wrapper-1">
                             <a href="#"><img class="round-edges" src="bildmaterial/Blog/morningroutine_blog.png"></a>
                         </div>
-                        <div class="allgemein-wrapper-2">
+                        <div class="technik-wrapper-2">
                             <h2>Welcome to my World of Swimming</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column link-box">
+        <div class="text-table columns">
+            <div class="column technik-content-wrapper content-wrapper">
+                <div class="technik-wrapper-1">
+                    <h4>Welcome to my World of Swimming</h4>
+                </div>
+                <div class="technik-wrapper-2">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                        et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </p>
                 </div>
             </div>
         </div>
@@ -109,11 +107,11 @@
     <div class="columns is-centered">
         <div class="column link-box">
             <div class="text-table columns">
-                <div class="column allgemein-content-wrapper content-wrapper">
-                    <div class="allgemein-wrapper-1">
+                <div class="column technik-content-wrapper content-wrapper">
+                    <div class="technik-wrapper-1">
                         <h4>Welcome to my World of Swimming</h4>
                     </div>
-                    <div class="allgemein-wrapper-2">
+                    <div class="technik-wrapper-2">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                             et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -125,27 +123,11 @@
         </div>
         <div class="column link-box">
             <div class="text-table columns">
-                <div class="column allgemein-content-wrapper content-wrapper">
-                    <div class="allgemein-wrapper-1">
-                        <h4>Welcome to my World of Swimming</h4>
-                    </div>
-                    <div class="allgemein-wrapper-2">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="column link-box">
-            <div class="text-table columns">
-                <div class="column allgemein-content-wrapper content-wrapper dark-box">
-                    <div class="allgemein-wrapper-1">
+                <div class="column technik-content-wrapper content-wrapper dark-box">
+                    <div class="technik-wrapper-1">
                         <a href="#"><img class="round-edges" src="bildmaterial/Blog/morningroutine_blog.png"></a>
                     </div>
-                    <div class="allgemein-wrapper-2">
+                    <div class="technik-wrapper-2">
                         <h2>Welcome to my World of Swimming</h2>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
                     </div>
@@ -153,15 +135,15 @@
             </div>
         </div>
     </div>
-    <div class="box">
+    <div class="round-edges">
         <div class="columns is-centered">
             <div class="column link-box">
                 <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper dark-box">
-                        <div class="allgemein-wrapper-1">
+                    <div class="column technik-content-wrapper content-wrapper dark-box">
+                        <div class="technik-wrapper-1">
                             <a href="#"><img class="round-edges" src="bildmaterial/Blog/morningroutine_blog.png"></a>
                         </div>
-                        <div class="allgemein-wrapper-2">
+                        <div class="technik-wrapper-2">
                             <h2>Welcome to my World of Swimming</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
                         </div>
@@ -170,11 +152,11 @@
             </div>
             <div class="column link-box">
                 <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper">
-                        <div class="allgemein-wrapper-1">
+                    <div class="column technik-content-wrapper content-wrapper">
+                        <div class="technik-wrapper-1">
                             <h4>Welcome to my World of Swimming</h4>
                         </div>
-                        <div class="allgemein-wrapper-2">
+                        <div class="technik-wrapper-2">
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                                 et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -186,11 +168,11 @@
             </div>
             <div class="column link-box">
                 <div class="text-table columns">
-                    <div class="column allgemein-content-wrapper content-wrapper">
-                        <div class="allgemein-wrapper-1">
+                    <div class="column technik-content-wrapper content-wrapper">
+                        <div class="technik-wrapper-1">
                             <h4>Welcome to my World of Swimming</h4>
                         </div>
-                        <div class="allgemein-wrapper-2">
+                        <div class="technik-wrapper-2">
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                                 et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -201,18 +183,7 @@
                 </div>
             </div>
         </div>
-    </div>
 
-
-    <footer>
-        <div id="footer-list">
-            <ul  class="round-edges">
-                <li><a href="Impressum.html"><h2>Impressum</h2></a></li>
-                <li><a href="Kontakt.html"><h2>Kontakt</h2></a></li>
-            </ul>
-
-        </div>
-    </footer>
-</div>
-</body>
-</html>
+        <?php
+include_once ("inc/footer.php");
+?>

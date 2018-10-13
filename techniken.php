@@ -1,36 +1,8 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="bg-home.css">
-    <meta charset="UTF-8">
-    <title>Schwimmen - Technicken</title>
-</head>
-<body>
-<div class="header">
-    <nav>
-        <ul class="main-menu">
-            <li class="main-left active"><a href="Home.html">Home</a></li>
-            <li class="main-right"><a href="Blog.html">Blog</a></li>
-            <li class="main-right"><a href="Erholung.html">Erholung</a></li>
-            <li class="main-right"><a href="Technicken.html">Technicken</a></li>
-            <li class="main-right"><a href="Allgemein.html">Allgemein</a></li>
-        </ul>
-    </nav>
-</div>
-<div class="bg-slide row">
-    <ul class="cb-slideshow">
-        <li><span>Image 01</span><div><h1>Swimming is..</h1></div></li>
-        <li><span>Image 02</span><div><h1>Refreshing</h1></div></li>
-        <li><span>Image 03</span><div><h1>Relaxing</h1></div></li>
-        <li><span>Image 04</span><div><h1>Powerful</h1></div></li>
-        <li><span>Image 05</span><div><h1>Peaceful</h1></div></li>
-        <li><span>Image 06</span><div><h1>Exhausting</h1></div></li>
-    </ul>
-</div>
+<?php
+$pageTitle = "Techniken";
+include_once ("inc/header.php");
+?>
+
 <div class="content">
     <div class="box">
         <div class="columns is-centered">
@@ -86,17 +58,7 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <footer class="box">
-        <div id="footer-list">
-            <ul>
-                <li><a href="#"><h2>Impressum</h2></a></li>
-                <li><a href="#"><h2>Contact</h2></a></li>
-            </ul>
-
-        </div>
-    </footer>
-</div>
-</body>
-</html>
+        <?php
+include_once ("inc/footer.php");
+?>
