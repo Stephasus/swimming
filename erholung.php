@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Erholung";
+$activePage = $pageTitle;
 include_once ("inc/header.php");
 ?>
 

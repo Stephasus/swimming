@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Home";
+$activePage = $pageTitle;
 include_once("inc/header.php");
 ?>
 <div class="bg-slide">

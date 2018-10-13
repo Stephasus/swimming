@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Blog";
+$activePage = $pageTitle;
 include_once ("inc/header.php");
 ?>
 

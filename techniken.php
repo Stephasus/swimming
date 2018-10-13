@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Techniken";
+$activePage = $pageTitle;
 include_once ("inc/header.php");
 ?>
 

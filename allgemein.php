@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Allgemeines";
+$activePage = $pageTitle;
 include_once("inc/header.php");
 ?>
 <div class="bg-bilder allgemein">
